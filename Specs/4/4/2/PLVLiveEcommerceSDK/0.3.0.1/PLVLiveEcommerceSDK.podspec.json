@@ -16,7 +16,8 @@
   "default_subspecs": [
     "Basic",
     "Extra",
-    "Socket"
+    "Socket",
+    "PLVSDKs"
   ],
   "xcconfig": {
     "OTHER_LDFLAGS": "$(inherited) -ObjC -lz"
@@ -37,7 +38,7 @@
       "name": "Extra",
       "dependencies": {
         "PLVCloudClassSDKExtra": [
-          "0.1.15"
+          "~> 0.1.16"
         ]
       }
     },
@@ -46,6 +47,17 @@
       "dependencies": {
         "PLVSocket": [
           "0.1.4"
+        ]
+      }
+    },
+    {
+      "name": "PLVSDKs",
+      "dependencies": {
+        "PolyvAliHttpDNS": [
+          "~> 1.7.3"
+        ],
+        "PolyvIJKPlayer": [
+          "~> 0.6.3"
         ]
       }
     }
