@@ -1,6 +1,6 @@
 {
   "name": "YF_FineAdSDK",
-  "version": "5017",
+  "version": "5012",
   "summary": "YF_FineAdSDK",
   "description": "FineAdSDK for cocoapods",
   "homepage": "https://e.coding.net/szyifants/YF_FineSDK.git",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://e.coding.net/szyifants/YF_FineSDK.git",
-    "tag": "5017"
+    "tag": "5012"
   },
   "xcconfig": {
     "VALID_ARCHS": "armv7 armv7s x86_64 arm64"
@@ -156,7 +156,7 @@
       "name": "Facebook",
       "dependencies": {
         "FBAudienceNetwork": [
-          "6.2.0"
+          "5.10.1"
         ],
         "YF_FineAdSDK/FineSDK": [
 
@@ -189,7 +189,7 @@
       "name": "InMobi",
       "dependencies": {
         "InMobiSDK": [
-          "9.1.0"
+          "9.0.7"
         ],
         "YF_FineAdSDK/FineSDK": [
 
@@ -275,7 +275,7 @@
       "name": "UnityAds",
       "dependencies": {
         "UnityAds": [
-          "3.5.0"
+          "3.4.8"
         ],
         "YF_FineAdSDK/FineSDK": [
 
