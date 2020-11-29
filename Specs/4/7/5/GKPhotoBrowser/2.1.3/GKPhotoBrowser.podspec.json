@@ -1,6 +1,6 @@
 {
   "name": "GKPhotoBrowser",
-  "version": "2.1.3-beat",
+  "version": "2.1.3",
   "summary": "iOS自定义图片浏览器，支持CocoaPods",
   "homepage": "https://github.com/QuintGao/GKPhotoBrowser",
   "license": "MIT",
@@ -9,11 +9,11 @@
   },
   "social_media_url": "https://github.com/QuintGao",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source": {
     "git": "https://github.com/QuintGao/GKPhotoBrowser.git",
-    "tag": "2.1.3-beat"
+    "tag": "2.1.3"
   },
   "default_subspecs": "SD",
   "subspecs": [
