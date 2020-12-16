@@ -26,6 +26,11 @@
     "sha256": "da327232058d167722783c018b1190294c3c456545980930b02b619757ba60bf"
   },
   "default_subspecs": "Default",
+  "dependencies": {
+    "Google-Mobile-Ads-SDK": [
+      "7.69.0"
+    ]
+  },
   "subspecs": [
     {
       "name": "Default",
@@ -33,16 +38,7 @@
         "AATKit/AdColony": [
 
         ],
-        "AATKit/Admob": [
-
-        ],
-        "AATKit/AdX": [
-
-        ],
         "AATKit/CriteoSDK": [
-
-        ],
-        "AATKit/DFP": [
 
         ],
         "AATKit/Facebook": [
@@ -99,22 +95,6 @@
       }
     },
     {
-      "name": "Admob",
-      "dependencies": {
-        "AATKit/GoogleMobileAds": [
-
-        ]
-      }
-    },
-    {
-      "name": "AdX",
-      "dependencies": {
-        "AATKit/GoogleMobileAds": [
-
-        ]
-      }
-    },
-    {
       "name": "AmazonHB",
       "dependencies": {
         "AATKit/Core": [
@@ -159,14 +139,6 @@
       }
     },
     {
-      "name": "DFP",
-      "dependencies": {
-        "AATKit/GoogleMobileAds": [
-
-        ]
-      }
-    },
-    {
       "name": "Facebook",
       "dependencies": {
         "AATKit/Core": [
@@ -176,30 +148,6 @@
           "6.2.0"
         ]
       }
-    },
-    {
-      "name": "GoogleMobileAds",
-      "dependencies": {
-        "AATKit/Core": [
-
-        ],
-        "GoogleAppMeasurement": [
-          "7.3.0"
-        ],
-        "GoogleUtilities": [
-          "7.1.1"
-        ],
-        "nanopb": [
-          "2.30906.0"
-        ],
-        "PromisesObjC": [
-          "1.2.11"
-        ]
-      },
-      "vendored_frameworks": [
-        "aat/subSDKs/GoogleMobileAds_*/GoogleMobileAds.xcframework",
-        "aat/subSDKs/GoogleMobileAds_*/UserMessagingPlatform.xcframework"
-      ]
     },
     {
       "name": "AppNexus",

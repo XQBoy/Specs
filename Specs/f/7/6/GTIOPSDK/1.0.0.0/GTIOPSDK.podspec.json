@@ -17,7 +17,6 @@
   "source_files": "GTIOPSDK/*.h",
   "ios": {
     "vendored_libraries": [
-      "GTIOPSDK/GTExtensionSDK.a",
       "GTIOPSDK/libGTCommonSDK.a",
       "GTIOPSDK/libGTIOP.a"
     ],
