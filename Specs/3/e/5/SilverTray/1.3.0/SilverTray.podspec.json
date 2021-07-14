@@ -13,15 +13,8 @@
     "tag": "1.3.0"
   },
   "documentation_url": "https://developers.nugu.co.kr",
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=*simulator*]": "arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=*simulator*]": "arm64"
-  },
   "platforms": {
-    "ios": "12.0",
-    "tvos": "13.0"
+    "ios": "12.0"
   },
   "source_files": [
     "SilverTray/Classes/**/*",
@@ -31,21 +24,11 @@
     "SilverTray/Classes/**/*.h",
     "SilverTray/Libraries/**/*.h"
   ],
-  "ios": {
-    "vendored_libraries": "SilverTray/Libraries/Opus/Binary/iOS/libopus.a"
-  },
-  "tvos": {
-    "vendored_libraries": "SilverTray/Libraries/Opus/Binary/tvOS/libopus.a"
-  },
-  "watchos": {
-    "vendored_libraries": "SilverTray/Libraries/Opus/Binary/watchOS/libopus.a"
-  },
-  "osx": {
-    "vendored_libraries": "SilverTray/Libraries/Opus/Binary/macOS/libopus.a"
-  },
+  "vendored_frameworks": "SilverTray/Libraries/Opus/Binary/OpusCodec.xcframework",
   "preserve_paths": "SilverTray/Libraries/**",
   "libraries": "c++",
   "xcconfig": {
-    "OTHER_LDFLAGS": "-Xlinker -w"
+    "OTHER_LDFLAGS": "-Xlinker -w",
+    "SWIFT_INCLUDE_PATHS": "$(PODS_ROOT)/SilverTray/SilverTray/Libraries/**"
   }
 }

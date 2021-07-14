@@ -12,7 +12,7 @@
     "IronSource": "http://www.ironsrc.com/contact/"
   },
   "source": {
-    "http": "https://dl.bintray.com/ironsource-mobile/ios-adapters/ISTapjoyAdapter4.1.14.zip"
+    "http": "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/tapjoy-adapter/4.1.14/ISTapjoyAdapter4.1.14.zip"
   },
   "source_files": "ISTapjoyAdapter/ISTapjoyAdapter.framework/**/*.{h,m}",
   "public_header_files": "ISTapjoyAdapter/ISTapjoyAdapter.framework/**/*.h",
